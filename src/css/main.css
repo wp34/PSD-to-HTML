@@ -93,21 +93,45 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+	background: url('../img/body-bg.png') repeat-x top;
+}
 
+#wrapper {
+	  width: 960px;
+	    margin-left: auto;
+	      margin-right: auto;
+	  font-size: 20px;
+	  line-height: 30px;
+}
 
+#logo {
+	width: 171px;
+	height: 75px;
+	margin: 0;
+}
 
+#menu {
+  height: 50px;
+  line-height: 50px;
+  padding-left: 150px;
+  
+}
 
+#menu ul, li {
+       margin: 0;
+}
 
+#menu li {
+	display: block;
+}
 
-
-
-
-
-
-
-
-
-
+#menu li a {
+	text-decoration: none;
+	color: white;
+	width: 110px;
+	float: left;
+}
 
 /* ==========================================================================
    Helper classes
