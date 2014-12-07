@@ -119,13 +119,20 @@ body {
 	color: #3f8252;
 }
 
+#menu ul{
+	text-align: center;
+}
+
 #menu li {
 	list-style: none;
 	display: inline;
+	padding: 25px;
 }
 
 #menu li a {
 	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 	color: white;
 	margin-top: 150px;
     font-size: 16px;
